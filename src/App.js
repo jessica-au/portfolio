@@ -9,6 +9,8 @@ import './App.css';
 import About from './components/About';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
+import Projects from './components/Projects';
+import Resume from './components/Resume';
 
 //main parent component to render application
 function App() {
@@ -21,7 +23,8 @@ function App() {
         <Navbar />
         <Switch>
           <Route path='/about' component={About} />
-
+          <Route path='/projects' component={Projects} />
+          <Route path='/resume' component={Resume } />
         </Switch>
       </div>
       <Footer />
