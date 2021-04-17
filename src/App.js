@@ -1,6 +1,7 @@
 //imports
 import React, { useEffect, useState } from 'react';
 import { Route, Switch } from 'react-router-dom';
+import bootstrap from 'bootstrap';
 
 //css
 import './App.css';
@@ -18,16 +19,17 @@ function App() {
   console.log('>>>>>>>>>>hit app route')
   return (
     <div className="App">
+
       <div className="mainContainer">
 
         <Navbar />
         <Switch>
-          <Route path='/about' component={About} />
-          <Route path='/projects' component={Projects} />
-          <Route path='/resume' component={Resume } />
+          <Route path='/about' component={ About } />
+          <Route path='/projects' component={ Projects } />
+          <Route path='/resume' component={ Resume } />
         </Switch>
       </div>
-      <Footer />
+
     </div>
   );
 

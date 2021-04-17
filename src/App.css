@@ -1,0 +1,11 @@
+.navbar {
+  display:flexbox;
+  background-color: rgb(62, 139, 240);
+  color: tomato;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}

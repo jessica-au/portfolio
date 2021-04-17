@@ -4,7 +4,7 @@ const Projects = () => {
 
     return (
         <div>
-
+        This is where my projects go
         </div>
     );
 }
