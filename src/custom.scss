@@ -1,0 +1,31 @@
+/* The following block can be included in a custom.scss */
+
+/* make the customizations */
+// $theme-colors: (
+//     "info": tomato,
+//     "danger": teal
+// );
+
+.mainContainer {
+    background-color: black;
+    color: white;
+    height: 100%;
+    min-height: 800px;
+}
+
+.navlink {
+    display:flexbox;
+    color: tomato;
+    text-decoration: none;
+    margin: 0px 40px;
+  }
+  a {
+    text-decoration: none;
+    color: white;
+  }
+
+.carousel-image {
+    // height: 700px;
+    // width: 400px;
+
+}

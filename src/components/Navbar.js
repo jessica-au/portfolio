@@ -1,24 +1,28 @@
 import React from 'react';
 import { NavLink, Link } from 'react-router-dom';
+import { Navbar, Nav } from 'react-bootstrap';
 
-const Navbar = (props) => {
-    console.log('inside navbar')
+
+const NavbarContainer = (props) => {
+    
     return (
-        <nav className="navbar">
-            <div className="navHomeLink">
-                <NavLink exact to="/">Home</NavLink>
-            </div>
-            <div className="navAboutLink">
-                <NavLink to="/about">About</NavLink>
-            </div>
-            <div className="navResumeLink">
-                <NavLink to="/resume">Resume</NavLink>
-            </div>
-            <div className="navProjectsLink">
-                <NavLink to="/projects">Projects</NavLink>
-            </div>
-        </nav>
+        <>
+        <Navbar bg="dark" variant="dark">
+        <Navbar.Brand href="/home">Jessica Au</Navbar.Brand>
+            <Nav className="mr-auto">
+                <div className="navlink">
+                    <NavLink to="/about">About</NavLink>
+                </div>
+                <div className="navlink">
+                    <NavLink to="/resume">Resume</NavLink>
+                </div>
+                <div className="navlink">
+                    <NavLink to="/projects">Projects</NavLink>
+                </div>
+            </Nav>
+        </Navbar>
+        </>
     );
 }
 
-export default Navbar;
+export default NavbarContainer;
