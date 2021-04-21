@@ -2,6 +2,7 @@ import React from 'react';
 import { Carousel } from 'react-bootstrap';
 
 import mathblaster from "./../images/mathblaster.png";
+import selene from "./../images/selene.gif";
 
 const Projects = () => {
 
@@ -11,7 +12,7 @@ const Projects = () => {
                 <Carousel.Item>
                     <img
                         className="d-block w-100 carousel-image"
-                        src={mathblaster}
+                        src={selene}
                         alt="First slide"
                     />
                     <Carousel.Caption>
