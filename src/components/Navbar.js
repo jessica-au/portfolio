@@ -8,7 +8,7 @@ const NavbarContainer = (props) => {
     return (
         <>
         <Navbar bg="dark" variant="dark">
-        <Navbar.Brand href="/home">Jessica Au</Navbar.Brand>
+        <Navbar.Brand href="/ghome">Jessica Au</Navbar.Brand>
             <Nav className="mr-auto">
                 <div className="navlink">
                     <NavLink to="/about">About</NavLink>
