@@ -6,8 +6,14 @@
 //     "danger": teal
 // );
 
+body {
+    // background-image: url(./static/images/background.jpg);
+}
+
 .mainContainer {
+    background-image: url(./components/static/images/background.jpg);
     background-color: black;
+    background-size:cover;
     color: white;
     height: 100%;
     min-height: 800px;
@@ -15,17 +21,29 @@
 
 .navlink {
     display:flexbox;
-    color: tomato;
-    text-decoration: none;
+    color: peachpuff;
     margin: 0px 40px;
-  }
-  a {
-    text-decoration: none;
-    color: white;
+    a {
+        text-decoration: none;
+        color: peachpuff;
+    }
+    a:hover {
+        text-decoration: none;
+        color: rgb(35, 149, 194);
+    }
   }
 
-.carousel-image {
-    // height: 700px;
-    // width: 400px;
+.carousel-inner {
+    width: 400px;
+}
 
+.about {
+    background-color: rgba(12, 11, 14, 0.694);
+    margin: 50px 20px;
+    padding: 20px;
+    border-radius: 5px;   
+}
+
+.rounded-circle {
+    margin: 50px 20px;
 }

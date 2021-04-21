@@ -21,7 +21,6 @@ function App() {
 
         <Navbar />
       <div className="mainContainer">
-
         <Switch>
           <Route path='/about' component={ About } />
           <Route path='/projects' component={ Projects } />

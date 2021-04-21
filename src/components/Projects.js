@@ -1,5 +1,5 @@
 import React from 'react';
-import { Carousel } from 'react-bootstrap';
+import { Carousel, Container, Col, Row} from 'react-bootstrap';
 
 import mathblaster from "./../images/mathblaster.png";
 import selene from "./../images/selene.gif";
@@ -8,6 +8,7 @@ const Projects = () => {
 
     return (
         <>
+
             <Carousel fade>
                 <Carousel.Item>
                     <img

@@ -1,11 +1,12 @@
 import React from 'react';
+import { Document, Page } from 'react-pdf';
 
 
 const Resume = () => {
     return (
-        <div className="resume">
-            This is where my resume goes
-        </div>
+        <>
+            <Document file="https://drive.google.com/file/d/18RLfZxTGCvVpcIKy6ePuuVm7fRof3GYk/view?usp=sharing" />
+        </>
     );
 }
 
