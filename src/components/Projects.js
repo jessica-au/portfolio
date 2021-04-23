@@ -1,72 +1,105 @@
 import React from 'react';
-import { Carousel, Container, Col, Row} from 'react-bootstrap';
+import { Carousel, Container, Col, Row, Card, Button } from 'react-bootstrap';
 
 import mathblaster from "./static/images/mathblaster.png";
 import selene from "./static/images/selene.gif";
+import selenestill from "./static/images/selene.png"
 import nipponrunner from "./static/images/nipponrunner.png";
 import binmediares from "./static/images/binmediares.png";
+
 
 const Projects = () => {
 
     return (
         <>
+        <h1 class="titles">Projects</h1>
             <Row sm={2} className="justify-content-md-center" >
-            <Carousel fade nextLabel=" " prevLabel=" " >
-                <Carousel.Item>
-                    <img
-                        className="d-block w-100 carousel-image"
-                        src={selene}
-                        alt="Selene"
-                    />
-                    <Carousel.Caption>
-                        <h3>Selene</h3>
-                        <p>An e-commerce application focused on user experience and inventory management. <br/>
-Stack: Python, Django, PostgreSQL, Heroku</p>
-                    </Carousel.Caption>
-                </Carousel.Item>
-                <Carousel.Item>
-                    <img
-                        className="d-block w-100 carousel-image"
-                        src={nipponrunner}
-                        alt="Homeworld Bound"
-                    />
-
-                    <Carousel.Caption>
-                        <h3>NipponRunner</h3>
-                        <p>An online language learning application designed to help users learn hiragana, the Japanese alphabet. <br/>
-Stack: React, Express, MongoDB, Node.js, Heroku, Atlas</p>
-                    </Carousel.Caption>
-                </Carousel.Item>
-                <Carousel.Item>
-                    <img
-                        className="d-block w-100 carousel-image"
-                        src={ binmediares }
-                        alt="Bin Media Res"
-                    />
-
-                    <Carousel.Caption>
-                        <h3>Bin Media Res</h3>
-                        <p>An online media category application designed to help organize your
-favorite podcasts. <br/>
-Stack: Javascript, Express, SQL, Node.js, Heroku</p>
-                    </Carousel.Caption>
-                </Carousel.Item>
-                <Carousel.Item>
-                    <img
-                        className="d-block w-100 carousel-image"
-                        src={ mathblaster }
-                        alt="Mathblaster: Homeworld Bound"
-                    />
-
-                    <Carousel.Caption>
-                        <h3>Mathblaster: Homeworld Bound</h3>
-                        <p>A fun and engaging learning application paying homage to the late ‘90s
-game of the same name. <br/>
-Stack: HTML, CSS, Javascript, GitHub Pages</p>
-                    </Carousel.Caption>
-                </Carousel.Item>
-            </Carousel>
-    </Row>
+                <Carousel fade nextLabel=" " prevLabel=" " >
+                    <Carousel.Item>
+                        <img
+                            className="d-block w-100 carousel-image"
+                            src={selene}
+                            alt="Selene"
+                        />                       
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <img
+                            className="d-block w-100 carousel-image"
+                            src={nipponrunner}
+                            alt="Homeworld Bound"
+                        />
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <img
+                            className="d-block w-100 carousel-image"
+                            src={binmediares}
+                            alt="Bin Media Res"
+                        />
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <img
+                            className="d-block w-100 carousel-image"
+                            src={mathblaster}
+                            alt="Mathblaster: Homeworld Bound"
+                        />
+                    </Carousel.Item>
+                </Carousel>
+            </Row>
+            <Row className="justify-content-md-center">
+                <Col>
+                    <Card border="secondary" style={{ width: '20rem' }}>
+                        <Card.Img variant="top" src= { selenestill } />
+                        <Card.Body>
+                            <Card.Title>Selene</Card.Title>
+                            <Card.Text>
+                                <p>An e-commerce application focused on user experience and inventory management. <br /><br />
+                                Stack: Python, Django, PostgreSQL, Heroku</p>
+                            </Card.Text>
+                            <Button variant="outline-secondary" href="https://seleneshop.herokuapp.com/">Go to Site</Button>
+                        </Card.Body>
+                    </Card>
+                </Col>
+                <Col >
+                <Card border="secondary" style={{ width: '20rem' }}>
+                        <Card.Img variant="top" src= { nipponrunner } />
+                        <Card.Body>
+                            <Card.Title>Nippon Runner</Card.Title>
+                            <Card.Text>
+                            <p>An online language learning application designed to help users learn hiragana, the Japanese alphabet. <br /><br />
+                            Stack: React, Express, MongoDB, Node.js, Heroku, Atlas</p>
+                            </Card.Text>
+                            <Button variant="outline-secondary" href="https://nipponrunner.herokuapp.com/">Go to Site</Button>
+                        </Card.Body>
+                    </Card>
+                </Col>
+                <Col>
+                <Card border="secondary" style={{ width: '20rem' }}>
+                        <Card.Img variant="top" src= { binmediares } />
+                        <Card.Body>
+                            <Card.Title>Bin Media Res</Card.Title>
+                            <Card.Text>
+                            <p>An online media category application designed to help organize your favorite podcasts. <br /><br />
+                            Stack: Javascript, Express, SQL, Node.js, Heroku</p>
+                            </Card.Text>
+                            <Button variant="outline-secondary" href="https://bin-media-res.herokuapp.com/">Go to Site</Button>
+                        </Card.Body>
+                    </Card>
+                </Col>
+                <Col>
+                <Card border="secondary" style={{ width: '20rem' }}>
+                        <Card.Img variant="top" src= { mathblaster } />
+                        <Card.Body>
+                            <Card.Title>Math Blaster</Card.Title>
+                            <Card.Text>
+                            <p>A fun and engaging learning application paying homage to the late ‘90s game of the same name. <br /><br />
+                            Stack: HTML, CSS, Javascript, GitHub Pages</p>
+                            </Card.Text>
+                            <Button variant="outline-secondary" href="https://jessica-au.github.io/mathblaster/">Go to Site</Button>
+                        </Card.Body>
+                    </Card>
+                </Col>
+            </Row>
+            
         </>
     );
 }
