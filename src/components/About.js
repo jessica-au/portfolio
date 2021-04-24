@@ -21,8 +21,11 @@ const About = () => {
                 <Col sm={6} md={5} lg={5}>
                     <div className="about">
                     <h2>About Me</h2>
-                    <p>
-                        Current full-stack software engineer, previously a high school English teacher.  One of my greatest passions in life is 
+                        <p>
+                        <br/>
+                        Current full-stack software engineer, previously a high school English teacher.  One of my greatest passions in life is creating equitable opportunity within education through the use of technology.  
+                        <br/><br/> My second greatest passion is utilizing and teaching critical thinking skills. 
+                        <br/><br/> My third greatest passion is baking and then eating said baked items or occasionally omitting the baking step altogether.
                         </p>
         </div>
                 </Col>

@@ -22,8 +22,12 @@ const NavbarContainer = (props) => {
                     <NavLink to="/resume">Resume</NavLink>
                 </div>
                 <div className="glyphs">
-                <img className="icons" src={github} alt="Bootstrap" width="32" height="32"/>
-                <img className="icons" src={linkedin} alt="Bootstrap" width="32" height="32"/>
+                <a href="https://github.com/jessica-au">
+                <img className="icons" src={github} alt="Bootstrap" width="32" height="32" />
+                </a>
+                <a href="linkedin.com/in/jessica-m-au/">
+                <img className="icons" src={linkedin} alt="Bootstrap" width="32" height="32" />
+                </a>
                 </div>
             </Nav>
         </Navbar>
