@@ -7,16 +7,27 @@ import profile from './../components/static/images/profile.jpg';
 const About = () => {
     return (
         <>
-          <Row className="justify-content-md-center">
-    <Col sm={3}>
-    <Image src= { profile } roundedCircle thumbnail/></Col>
+        <h1 className="titles">Welcome!</h1>
+            <Row className="justify-content-md-center aboutrow">
+                <Col>
+                    <Image src={profile} roundedCircle thumbnail /> <br/>
 
-    <Col sm={3}>
-    <div className="about">
-            I am an educator turned full-stack developer who maintains a strong passion for teaching and creating equitable opportunities for learning. I value developing ed tech tools that augment and transform the learning experience, and I hope to lend my prior teaching experience to the development of tools that create greater educational equity.
+                   <div className="description">
+                   <h2>Jessica Au</h2> <br/>
+                   </div>
+                   <div className="description2">
+                    Full-Stack Software Engineer | Web Developer
+                   </div>
+                </Col>
+                <Col>
+                    <div className="about">
+                    <h2>About Me</h2>
+                    <p>
+                        Current full-stack software engineer, previously a high school English teacher.  One of my greatest passions in life is 
+                        </p>
         </div>
-        </Col>
-  </Row>
+                </Col>
+            </Row>
         </>
     );
 }

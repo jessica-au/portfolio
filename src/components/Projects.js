@@ -3,8 +3,9 @@ import { Carousel, Container, Col, Row, Card, Button } from 'react-bootstrap';
 
 import mathblaster from "./static/images/mathblaster.png";
 import selene from "./static/images/selene.gif";
-import selenestill from "./static/images/selene.png"
-import nipponrunner from "./static/images/nipponrunner.png";
+import selenestill from "./static/images/selene.png";
+import nipponrunner from "./static/images/nipponrunner.gif";
+import nipponrunnerstill from "./static/images/nipponrunner.png";
 import binmediares from "./static/images/binmediares.png";
 
 
@@ -13,8 +14,8 @@ const Projects = () => {
     return (
         <>
         <h1 class="titles">Projects</h1>
-            <Row sm={2} className="justify-content-md-center" >
-                <Carousel fade nextLabel=" " prevLabel=" " >
+            <Row sm={8} md={{ span: 6, offset: 6 }} lg={{ span: 9, offset: 3 }} className="justify-content-md-center" >
+                <Carousel fade nextLabel=" " prevLabel=" " className="justify-content-md-center">
                     <Carousel.Item>
                         <img
                             className="d-block w-100 carousel-image"
@@ -46,7 +47,7 @@ const Projects = () => {
                 </Carousel>
             </Row>
             <Row className="justify-content-md-center">
-                <Col>
+                <Col sm={12} md={6} lg={3}>
                     <Card border="secondary" style={{ width: '20rem' }}>
                         <Card.Img variant="top" src= { selenestill } />
                         <Card.Body>
@@ -59,9 +60,9 @@ const Projects = () => {
                         </Card.Body>
                     </Card>
                 </Col>
-                <Col >
+                <Col  sm={12} md={6} lg={3}>
                 <Card border="secondary" style={{ width: '20rem' }}>
-                        <Card.Img variant="top" src= { nipponrunner } />
+                        <Card.Img variant="top" src= { nipponrunnerstill } />
                         <Card.Body>
                             <Card.Title>Nippon Runner</Card.Title>
                             <Card.Text>
@@ -72,7 +73,7 @@ const Projects = () => {
                         </Card.Body>
                     </Card>
                 </Col>
-                <Col>
+                <Col sm={12} md={6} lg={3}>
                 <Card border="secondary" style={{ width: '20rem' }}>
                         <Card.Img variant="top" src= { binmediares } />
                         <Card.Body>
@@ -85,7 +86,7 @@ const Projects = () => {
                         </Card.Body>
                     </Card>
                 </Col>
-                <Col>
+                <Col  sm={12} md={6} lg={3}>
                 <Card border="secondary" style={{ width: '20rem' }}>
                         <Card.Img variant="top" src= { mathblaster } />
                         <Card.Body>
