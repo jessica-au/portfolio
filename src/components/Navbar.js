@@ -10,7 +10,7 @@ const NavbarContainer = () => {
     return (
         <>
         <Navbar bg="dark" variant="dark">
-        <Navbar.Brand href="/">Jessica Au</Navbar.Brand>
+        <Navbar.Brand href="/portfolio/">Jessica Au</Navbar.Brand>
             <Nav className="mr-auto">
                 <div className="navlink">
                     <NavLink to="/projects">Projects</NavLink>
