@@ -56,7 +56,7 @@ const Projects = () => {
                                 <p>An e-commerce application focused on user experience and inventory management. <br /><br />
                                 Stack: Python, Django, PostgreSQL, Heroku</p>
                             </Card.Text>
-                            <Button variant="outline-secondary" href="https://seleneshop.herokuapp.com/">Go to Site</Button>
+                            <Button variant="outline-secondary" href="https://seleneshop.herokuapp.com/" target="_blank">Go to Site</Button>
                         </Card.Body>
                     </Card>
                 </Col>
@@ -69,7 +69,7 @@ const Projects = () => {
                             <p>An online language learning application designed to help users learn hiragana, the Japanese alphabet. <br /><br />
                             Stack: React, Express, MongoDB, Node.js, Heroku, Atlas</p>
                             </Card.Text>
-                            <Button variant="outline-secondary" href="https://nipponrunner.herokuapp.com/">Go to Site</Button>
+                            <Button variant="outline-secondary" href="https://nipponrunner.herokuapp.com/" target="_blank">Go to Site</Button>
                         </Card.Body>
                     </Card>
                 </Col>
@@ -82,7 +82,7 @@ const Projects = () => {
                             <p>An online media category application designed to help organize your favorite podcasts. <br /><br />
                             Stack: Javascript, Express, SQL, Node.js, Heroku</p>
                             </Card.Text>
-                            <Button variant="outline-secondary" href="https://bin-media-res.herokuapp.com/">Go to Site</Button>
+                            <Button variant="outline-secondary" href="https://bin-media-res.herokuapp.com/" target="_blank">Go to Site</Button>
                         </Card.Body>
                     </Card>
                 </Col>
@@ -95,7 +95,7 @@ const Projects = () => {
                             <p>A fun and engaging learning application paying homage to the late ‘90s game of the same name. <br /><br />
                             Stack: HTML, CSS, Javascript, GitHub Pages</p>
                             </Card.Text>
-                            <Button variant="outline-secondary" href="https://jessica-au.github.io/mathblaster/">Go to Site</Button>
+                            <Button variant="outline-secondary" href="https://jessica-au.github.io/mathblaster/" target="_blank">Go to Site</Button>
                         </Card.Body>
                     </Card>
                 </Col>

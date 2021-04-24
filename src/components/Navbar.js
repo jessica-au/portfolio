@@ -22,10 +22,10 @@ const NavbarContainer = () => {
                     <NavLink to="/portfolio/resume">Resume</NavLink>
                 </div>
                 <div className="glyphs">
-                <a href="https://github.com/jessica-au">
+                <a href="https://github.com/jessica-au" target="_blank" rel="noreferrer">
                 <img className="icons" src={github} alt="Bootstrap" width="32" height="32" />
                 </a>
-                <a href="linkedin.com/in/jessica-m-au/">
+                <a href="https://linkedin.com/in/jessica-m-au/" target="_blank" rel="noreferrer">
                 <img className="icons" src={linkedin} alt="Bootstrap" width="32" height="32" />
                 </a>
                 </div>
