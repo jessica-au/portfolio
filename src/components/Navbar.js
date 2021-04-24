@@ -13,13 +13,13 @@ const NavbarContainer = () => {
         <Navbar.Brand href="/portfolio/">Jessica Au</Navbar.Brand>
             <Nav className="mr-auto">
                 <div className="navlink">
-                    <NavLink to="/projects">Projects</NavLink>
+                    <NavLink to="/portfolio/projects">Projects</NavLink>
                 </div>
                 <div className="navlink">
-                    <NavLink to="/skills">Skills</NavLink>
+                    <NavLink to="/portfolio/skills">Skills</NavLink>
                 </div>
                 <div className="navlink">
-                    <NavLink to="/resume">Resume</NavLink>
+                    <NavLink to="/portfolio/resume">Resume</NavLink>
                 </div>
                 <div className="glyphs">
                 <a href="https://github.com/jessica-au">
