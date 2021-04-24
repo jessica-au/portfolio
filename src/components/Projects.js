@@ -48,7 +48,7 @@ const Projects = () => {
             </Row>
             <Row className="justify-content-md-center">
                 <Col sm={12} md={6} lg={3}>
-                    <Card border="secondary" style={{ width: '20rem' }}>
+                    <Card border="secondary" style={{ width: '19rem' }}>
                         <Card.Img variant="top" src= { selenestill } />
                         <Card.Body>
                             <Card.Title>Selene</Card.Title>
@@ -61,7 +61,7 @@ const Projects = () => {
                     </Card>
                 </Col>
                 <Col  sm={12} md={6} lg={3}>
-                <Card border="secondary" style={{ width: '20rem' }}>
+                <Card border="secondary" style={{ width: '19rem' }}>
                         <Card.Img variant="top" src= { nipponrunnerstill } />
                         <Card.Body>
                             <Card.Title>Nippon Runner</Card.Title>
@@ -74,7 +74,7 @@ const Projects = () => {
                     </Card>
                 </Col>
                 <Col sm={12} md={6} lg={3}>
-                <Card border="secondary" style={{ width: '20rem' }}>
+                <Card border="secondary" style={{ width: '19rem' }}>
                         <Card.Img variant="top" src= { binmediares } />
                         <Card.Body>
                             <Card.Title>Bin Media Res</Card.Title>
@@ -87,7 +87,7 @@ const Projects = () => {
                     </Card>
                 </Col>
                 <Col  sm={12} md={6} lg={3}>
-                <Card border="secondary" style={{ width: '20rem' }}>
+                <Card border="secondary" style={{ width: '19rem' }}>
                         <Card.Img variant="top" src= { mathblaster } />
                         <Card.Body>
                             <Card.Title>Math Blaster</Card.Title>

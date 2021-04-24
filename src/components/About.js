@@ -9,17 +9,16 @@ const About = () => {
         <>
         <h1 className="titles">Welcome!</h1>
             <Row className="justify-content-md-center aboutrow">
-                <Col>
+                <Col sm={6} md={5} lg={5}>
+                   <div className="description">
                     <Image src={profile} roundedCircle thumbnail /> <br/>
 
-                   <div className="description">
                    <h2>Jessica Au</h2> <br/>
-                   </div>
-                   <div className="description2">
+                   
                     Full-Stack Software Engineer | Web Developer
                    </div>
                 </Col>
-                <Col>
+                <Col sm={6} md={5} lg={5}>
                     <div className="about">
                     <h2>About Me</h2>
                     <p>

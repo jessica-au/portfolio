@@ -25,7 +25,7 @@
 .navlink {
     display:flexbox;
     color: peachpuff;
-    margin: 0px 40px;
+    margin: 0px 20px;
     a {
         text-decoration: none;
         color: peachpuff;
@@ -35,6 +35,9 @@
         color: rgb(35, 149, 194);
     }
   }
+  .navbar-brand {
+    margin: 0px 0px 0px 20px;
+}
 
   .icons {
       color: white;
@@ -44,15 +47,18 @@
     background-color: rgba(45, 152, 179, 0.778);
     color: peachpuff;
     margin: 50px 0px 0px 0px;
-    height: 200px;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 15px;
+    padding: 30px;
     text-align: center;
+    align-self: left;
 }
 
 .aboutrow {
     background-color:rgba(45, 152, 179, 0.9);
 }
 .rounded-circle {
-    margin: 70px 0 0 70px;
+    margin: 40px 10px 40px 10px;
 }
 
 .glyphs {
@@ -70,6 +76,11 @@
         border-color: black;
         border: solid;
     }
+}
+
+.description{
+    align-content: center;
+    text-align: center;
 }
 
 .carousel {
