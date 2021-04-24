@@ -1,5 +1,5 @@
 import React from 'react';
-import { Carousel, Container, Col, Row, Card, Button } from 'react-bootstrap';
+import { Carousel, Col, Row, Card, Button } from 'react-bootstrap';
 
 import mathblaster from "./static/images/mathblaster.png";
 import selene from "./static/images/selene.gif";

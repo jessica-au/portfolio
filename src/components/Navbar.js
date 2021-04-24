@@ -1,11 +1,11 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import { Navbar, Nav, Button } from 'react-bootstrap';
+import { Navbar, Nav} from 'react-bootstrap';
 
 import github from './static/images/github.svg';
 import linkedin from './static/images/linkedin.svg';
 
-const NavbarContainer = (props) => {
+const NavbarContainer = () => {
     
     return (
         <>

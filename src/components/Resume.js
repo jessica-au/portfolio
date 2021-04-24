@@ -1,5 +1,5 @@
 import React from 'react';
-import { Row, Col, Container } from 'react-bootstrap';
+import { Row, Col} from 'react-bootstrap';
 import { Document, Page } from 'react-pdf/dist/umd/entry.webpack';
 
 import resume from './static/pdfs/aujessicaresume.pdf';

@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a9c4b117.chunk.css",
+    "main.js": "/static/js/main.2b84fcec.chunk.js",
+    "main.js.map": "/static/js/main.2b84fcec.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.6ff04739.js",
+    "runtime-main.js.map": "/static/js/runtime-main.6ff04739.js.map",
+    "static/css/2.65af8127.chunk.css": "/static/css/2.65af8127.chunk.css",
+    "static/js/2.d79f8335.chunk.js": "/static/js/2.d79f8335.chunk.js",
+    "static/js/2.d79f8335.chunk.js.map": "/static/js/2.d79f8335.chunk.js.map",
+    "static/js/3.064c83e6.chunk.js": "/static/js/3.064c83e6.chunk.js",
+    "static/js/3.064c83e6.chunk.js.map": "/static/js/3.064c83e6.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.65af8127.chunk.css.map": "/static/css/2.65af8127.chunk.css.map",
+    "static/css/main.a9c4b117.chunk.css.map": "/static/css/main.a9c4b117.chunk.css.map",
+    "static/js/2.d79f8335.chunk.js.LICENSE.txt": "/static/js/2.d79f8335.chunk.js.LICENSE.txt",
+    "static/js/pdf.worker.entry.2a43a3e4.worker.js": "/static/js/pdf.worker.entry.2a43a3e4.worker.js",
+    "static/js/pdf.worker.entry.2a43a3e4.worker.js.LICENSE.txt": "/static/js/pdf.worker.entry.2a43a3e4.worker.js.LICENSE.txt",
+    "static/js/pdf.worker.entry.2a43a3e4.worker.js.map": "/static/js/pdf.worker.entry.2a43a3e4.worker.js.map",
+    "static/media/aujessicaresume.09f338a7.pdf": "/static/media/aujessicaresume.09f338a7.pdf",
+    "static/media/App.scss": "/static/media/background.9842d427.jpg",
+    "static/media/binmediares.ad327dea.png": "/static/media/binmediares.ad327dea.png",
+    "static/media/github.22e65707.svg": "/static/media/github.22e65707.svg",
+    "static/media/linkedin.2eda7bdd.svg": "/static/media/linkedin.2eda7bdd.svg",
+    "static/media/mathblaster.bc68c7ab.png": "/static/media/mathblaster.bc68c7ab.png",
+    "static/media/nipponrunner.8bd10f27.gif": "/static/media/nipponrunner.8bd10f27.gif",
+    "static/media/nipponrunner.ed80ec14.png": "/static/media/nipponrunner.ed80ec14.png",
+    "static/media/profile.4a7401fc.jpg": "/static/media/profile.4a7401fc.jpg",
+    "static/media/selene.4248357d.gif": "/static/media/selene.4248357d.gif",
+    "static/media/selene.5c3c155f.png": "/static/media/selene.5c3c155f.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6ff04739.js",
+    "static/css/2.65af8127.chunk.css",
+    "static/js/2.d79f8335.chunk.js",
+    "static/css/main.a9c4b117.chunk.css",
+    "static/js/main.2b84fcec.chunk.js"
+  ]
+}
