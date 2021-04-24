@@ -23,10 +23,10 @@ function App() {
         <Navbar />
       <div className="mainContainer">
         <Switch>
-          <Route exact path='/' component={ About } />
-          <Route path='/skills' component={ Skills } />
-          <Route path='/projects' component={ Projects } />
-          <Route path='/resume' component={ Resume } />
+          <Route exact path='/portfolio/' component={ About } />
+          <Route path='/portfolio/skills' component={ Skills } />
+          <Route path='/portfolio/projects' component={ Projects } />
+          <Route path='/portfolio/resume' component={ Resume } />
         </Switch>
       </div>
 
