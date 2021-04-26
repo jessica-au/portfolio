@@ -9,24 +9,23 @@ const About = () => {
         <>
         <h1 className="titles">Welcome!</h1>
             <Row className="justify-content-md-center aboutrow">
-                <Col sm={6} md={5} lg={5}>
+                <Col sm={7} md={6} lg={5}>
                    <div className="description">
-                    <Image src={profile} roundedCircle thumbnail /> <br/>
-
-                   <h2>Jessica Au</h2> <br/>
+                    <Image src={profile} roundedCircle thumbnail />
+                   <h2>Jessica Au</h2>
                    
-                    Full-Stack Software Engineer | Web Developer
+                    Full-Stack Software Engineer | Web Developer <br/>
+                    au.jessica.m@gmail.com <br/> <br/>
                    </div>
                 </Col>
-                <Col sm={6} md={5} lg={5}>
+                <Col sm={8} md={6} lg={6}>
                     <div className="about">
                     <h2>About Me</h2>
                         <p>
                         <br/>
-                        Current full-stack software engineer, previously a high school English teacher.  One of my greatest passions in life is creating equitable opportunity within education through the use of technology.  
-                        <br/><br/> My second greatest passion is utilizing and teaching critical thinking skills. 
-                        <br/><br/> My third greatest passion is baking and then eating said baked items or occasionally omitting the baking step altogether.
+                        Current full-stack software engineer, previously a high school English teacher. 
                         </p>
+                        {/* One of my greatest passions in life is creating equitable opportunity for educational access through the use of technology.   */}
         </div>
                 </Col>
             </Row>

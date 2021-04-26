@@ -20,6 +20,13 @@
     color: white;
     height: 100%;
     min-height: 800px;
+    a, a:hover {
+        text-decoration: none;
+        color:white;
+        // background-color: rgba(12, 11, 14, 0.694);
+        border-radius: 5px;
+        padding: 5px;
+    }
 }
 
 .navlink {
@@ -32,26 +39,31 @@
     }
     a:hover {
         text-decoration: none;
-        color: rgb(35, 149, 194);
+        color: white;
     }
   }
   .navbar-brand {
     margin: 0px 0px 0px 20px;
 }
 
-  .icons {
-      color: white;
-  }
+.icons {
+    margin: 0px 5px;
+    background: white;
+    border-radius: 5px;
+    border-color: white;
+    border: solid;
+}
 
 .about {
     background-color: rgba(45, 152, 179, 0.778);
-    color: peachpuff;
+    color: rgb(240, 219, 217);
     margin: 50px 0px 0px 0px;
     font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin: 15px;
     padding: 30px;
     // text-align: center;
     align-self: left;
+    font-size: 20px;
 }
 
 .aboutrow {
@@ -74,6 +86,7 @@
         border-radius: 5px;
         border-color: black;
         border: solid;
+        text-decoration: none;
     }
 }
 
