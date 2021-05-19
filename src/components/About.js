@@ -23,7 +23,7 @@ const About = () => {
                     <h2>About Me</h2>
                         <p>
                         <br/>
-                        Current full-stack software engineer, previously a high school English teacher. 
+                        I am an educator turned full-stack developer who maintains a strong passion for teaching and utilizing my critical thinking skills to solve tough problems. I value developing tools that augment and transform the user experience, and I hope to lend my prior experience to the development of tools and applications that are elegant and thoughtfully designed. 
                         </p>
                         {/* One of my greatest passions in life is creating equitable opportunity for educational access through the use of technology.   */}
         </div>
