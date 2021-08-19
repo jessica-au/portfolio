@@ -11,6 +11,7 @@ import Navbar from './components/Navbar';
 import Projects from './components/Projects';
 import Resume from './components/Resume';
 import Skills from './components/Skills';
+import Interview from './components/Interview';
 
 
 //main parent component to render application
@@ -27,6 +28,7 @@ function App() {
           <Route path='/portfolio/skills' component={ Skills } />
           <Route path='/portfolio/projects' component={ Projects } />
           <Route path='/portfolio/resume' component={ Resume } />
+          <Route path='/portfolio/interview' component={ Interview } />
         </Switch>
       </div>
 

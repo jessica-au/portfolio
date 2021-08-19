@@ -5,7 +5,7 @@ import { Document, Page } from 'react-pdf/dist/umd/entry.webpack';
 import resume from './static/pdfs/JAUresume0821.pdf';
 import download from './static/images/download.svg';
 
-function Resume() {
+const Resume = () => {
 
     return (
         <>

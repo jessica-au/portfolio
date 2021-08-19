@@ -2,7 +2,7 @@ import React from 'react';
 import Resume from './Resume';
 
 
-function Interview() {
+const Interview = () => {
     return (
         <>
         <h1 class="titles">Q&A Time with Jessica</h1>
@@ -19,10 +19,10 @@ function Interview() {
             
             COVID hit. I had time to consider my path, pursue passion interests, and it kind of snowballed from there.  I have a great passion for learning and for languages!  Quarantine and shelter-in-place allowed me to do a deep dive into linguistics, which kind of naturally led to programmatic languages, and before I knew it, I was finishing up a Software Engineering Immersive Program through General Assembly!
 
-            
+
         
         </div>
         </>
     )
 }
-export default Resume;
+export default Interview;
