@@ -2,7 +2,7 @@ import React from 'react';
 import { Col, Row } from 'react-bootstrap';
 
 import Image from 'react-bootstrap/Image';
-import profile from './../components/static/images/profile.jpg';
+import profile from './../components/static/images/profilenew.jpeg';
 
 const About = () => {
     return (
