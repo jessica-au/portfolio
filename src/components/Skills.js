@@ -11,7 +11,7 @@ const Skills = () => {
                     <Container className="skillContainer">
                         <h2>Languages</h2>
                         <p>
-                        JavaScript, Python, HTML, CSS
+                        JavaScript, Python, HTML, CSS, Ruby
                         </p>
                     </Container>
                 </Row>
@@ -19,7 +19,7 @@ const Skills = () => {
                     <Container className="skillContainer">
                         <h2>Frameworks</h2>
                         <p>
-                        React.js, Express, Node.js, Django, Bootstrap
+                        React.js, Redux, Express, Node.js, Django, Bootstrap
                         </p>
                     </Container>
                 </Row>
@@ -35,7 +35,7 @@ const Skills = () => {
                     <Container className="skillContainer">
                         <h2>Other</h2>
                         <p>
-                        Git, Github, Heroku, Selenium, Atlas
+                        Git, Github, Heroku, Selenium, Atlas, Postman
                         </p>
                     </Container>
                 </Row>
