@@ -25,7 +25,6 @@ const About = () => {
                         <br/>
                         I am an educator turned full-stack developer who maintains a strong passion for teaching and utilizing my critical thinking skills to solve tough problems. I value developing tools that augment and transform the user experience, and I hope to lend my prior experience to the development of tools and applications that are elegant and thoughtfully designed. 
                         </p>
-                        {/* One of my greatest passions in life is creating equitable opportunity for educational access through the use of technology.   */}
         </div>
                 </Col>
             </Row>
