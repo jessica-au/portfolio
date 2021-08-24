@@ -2,7 +2,7 @@ import React from 'react';
 import { Row, Col} from 'react-bootstrap';
 import { Document, Page } from 'react-pdf/dist/umd/entry.webpack';
 
-import resume from './static/pdfs/aujessicaresume.pdf';
+import resume from './static/pdfs/JAUresume0821.pdf';
 import download from './static/images/download.svg';
 
 function Resume() {
